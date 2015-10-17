@@ -44,15 +44,20 @@ angular.module('starter', ['ionic'])
     })
     .controller('LocationsCtrl', function($scope, $http) {
         $http.get('http://localhost:1337/locations').then(function SuccessCb(data) {
-            $scope.locations = data.data;
-            $scope.populatePins(data);
+            $scope.populatePins(data.data);
             console.debug('Successfuly fetched locations', data);
         }, function errorCallback(data) {
             console.debug('Backend error', data);
         });
 
-        $scope.populatePins = function populatePins(data) {
-
+        $scope.populatePins = function populatePins(locations) {
+            var myMarker,
+                cords;
+            angular.forEach(locations, function locationIterator (location) {
+                cords = {lat: location.lat, lng: location.lng};
+                myMarker = new H.map.Marker(cords);
+                $scope.map.addObject(myMarker);
+            });
         }
 
     })
