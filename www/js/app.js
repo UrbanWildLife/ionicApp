@@ -60,7 +60,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
         $rootScope.addPin(loc);
       });
     })
-    .controller('LocationsCtrl', function($scope, $http) {
+    .controller('LocationsCtrl', function($scope, $http, $state) {
         $http.get('http://localhost:1337/locations').then(function SuccessCb(data) {
             $scope.populatePins(data.data);
             console.debug('Successfuly fetched locations', data);
@@ -74,6 +74,9 @@ angular.module('starter', ['ionic', 'ngCordova'])
             angular.forEach(locations, $scope.addPin);
         }
 
+        $scope.goToAddLocation = function goToAddLocation() {
+          $state.go("addLocation");
+        }
     })
     .controller('LocationCtrl', function($scope) {
         //Single location
