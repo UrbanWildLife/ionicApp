@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 68" style="enable-background:new 0 0 52 68;" xml:space="preserve">
+<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<style type="text/css">
+	.st0{fill:#F4511E;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#546E7A;}
+</style>
+<symbol  id="Fuchs" viewBox="-21 -14.2 41.9 28.3">
+	<g>
+		<polygon class="st0" points="-16.1,0.6 -21,14.2 -4.9,8.2 		"/>
+		<polygon class="st1" points="-12.4,-3.6 -17.2,10 -1.2,4 		"/>
+	</g>
+	<g>
+		<polygon class="st0" points="16.1,0.6 21,14.2 4.9,8.2 		"/>
+		<polygon class="st1" points="12.4,-3.6 17.2,10 1.2,4 		"/>
+	</g>
+	<path class="st0" d="M0-13.8C0-4.6,6.6,2.9,14.9,3.4C12,7.5,6.4,10.3,0,10.3c-6.4,0-12-2.8-14.9-6.9C-6.6,2.9,0-4.6,0-13.8"/>
+	<path d="M1.7-13.3c0-0.5-0.8-0.9-1.7-0.9s-1.7,0.4-1.7,0.9c0,0.5,0.8,1.6,1.7,1.6S1.7-12.8,1.7-13.3z"/>
+	<g>
+		<path class="st1" d="M-0.1-11.7C-1-3.5-7.3,3-14.9,3.4c-1.4-2-2.3-4.3-2.3-6.8c0-0.4,0-0.8,0.1-1.1c2.5-0.2,5.4-1.1,8.3-2.6
+			c3.1-1.7,5.6-3.8,7.1-6C-1.7-12.7-1-11.8-0.1-11.7z"/>
+	</g>
+	<g>
+		<path class="st1" d="M14.9,3.4C7.3,3,1-3.5,0.1-11.7c0.9-0.1,1.5-1,1.6-1.5c1.5,2.2,4,4.3,7.1,6c2.9,1.5,5.8,2.4,8.3,2.6
+			c0,0.4,0.1,0.8,0.1,1.1C17.2-1,16.4,1.4,14.9,3.4z"/>
+	</g>
+	<path d="M-6-4c0-0.5-0.3-1-0.7-1c-0.4,0-0.7,0.4-0.7,1s0.3,1,0.7,1C-6.3-3.1-6-3.5-6-4z"/>
+	<path d="M5.9-4c0-0.5,0.3-1,0.7-1s0.7,0.4,0.7,1s-0.3,1-0.7,1S5.9-3.5,5.9-4z"/>
+</symbol>
+<symbol  id="Pin" viewBox="-26 -34 52 68">
+	<g>
+		<path class="st2" d="M26,8C26-6.4,14.4-18,0-18S-26-6.4-26,8s11.6,26,26,26S26,22.4,26,8z"/>
+	</g>
+	<polygon class="st2" points="7.5,-14 0,-34 -7.5,-14 	"/>
+</symbol>
+<use xlink:href="#Pin"  width="52" height="68" x="-26" y="-34" transform="matrix(1 0 0 -1 -519.9999 -375)" style="overflow:visible;"/>
+<use xlink:href="#Fuchs"  width="41.9" height="28.3" id="XMLID_107_" x="-21" y="-14.2" transform="matrix(1 0 0 -1 -519.9999 -381.3237)" style="overflow:visible;"/>
+<use xlink:href="#Pin"  width="52" height="68" x="-26" y="-34" transform="matrix(1 0 0 -1 26.0001 34)" style="overflow:visible;"/>
+<use xlink:href="#Fuchs"  width="41.9" height="28.3" id="XMLID_1_" x="-21" y="-14.2" transform="matrix(1 0 0 -1 26.0001 27.6763)" style="overflow:visible;"/>
+</svg>

@@ -102,6 +102,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
         }
 
         $scope.animals = [
+            'fox',
             'cow',
             'cat',
             'oak',
@@ -110,7 +111,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
             'deer',
             'dog',
             'elephant',
-            'turtle',
+            //'turtle',
             'rabbit',
             'sheep',
             'fish',
