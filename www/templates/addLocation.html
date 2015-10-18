@@ -1,1 +1,10 @@
 <h4>Add location</h4>
+
+<div class="animals">
+    <span ng-repeat="animal in animals">
+        <img ng-src="img/{{animal}}.svg" ng-click="$parent.selected = animal" class="animal" ng-class="{selected: animal === $parent.selected}">
+    </span>
+    <span class="animal text">
+        Next
+    </span>
+</div>

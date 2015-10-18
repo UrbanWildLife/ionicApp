@@ -77,7 +77,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
             'deer',
             'dog',
             'elephant',
-            'turlte',
+            'turtle',
             'rabbit',
             'sheep',
             'fish',
@@ -110,8 +110,8 @@ angular.module('starter', ['ionic', 'ngCordova'])
                     }
                 }
             })
-            .state('app.locations.add', {
-                url: '/locations/add',
+            .state('addLocation', {
+                    url: '/addLocation',
                 views: {
                     '@': {
                         templateUrl: 'templates/addLocation.html',
