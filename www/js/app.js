@@ -32,7 +32,11 @@ angular.module('starter', ['ionic', 'ngCordova'])
         $rootScope.aggregateLocations = function() {
             angular.forEach($rootScope.locations, function(outerLocation, outerIndex) {
                 angular.forEach($rootScope.locations, function(location, index) {
-
+                    if(outerLocation.lat === location.lat &&
+                       outerLocation.lng === location.lng &&
+                       outerIndex !== index) {
+                        $rootScope.locations[outerIndex].type = 'group';
+                    }
                 });
             });
         };
@@ -141,6 +145,8 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
             $http.post('http://csuieuorhi.localtunnel.me/locations', payload).then(function(success){
                 try{
+                    $scope.locations.push(success.data);
+                    $scope.aggregateLocations();
 					$scope.addPin(success.data);
 					$scope.map.setZoom(12);
 					$scope.map.setCenter(success.data);
@@ -153,7 +159,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
                     alert('success!');
                 }
 				$scope.map.removeObject($scope.me);
-				$state.go('locations')
+				$state.go('locations');
             });
         }
     })
