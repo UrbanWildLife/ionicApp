@@ -15,12 +15,11 @@
 <div ng-show="isDescription" class="desc">
     <h4>Provider a short description</h4>
     <div>
-        <input type="text" ng-model="forms.description" placeholder="A {{forms.selected}} in Mauerpark">
+        <div class="input-container" ng-style="{background: bgStr}">
+            <input type="text" ng-model="forms.description" placeholder="A {{forms.selected}} in Mauerpark">
+        </div>
     </div>
     <div id="saveButton">
-        <div>
-            <img ng-src="img/{{forms.selected}}.svg" class="animal selected">
-        </div>
         <span class="button button-possitive" ng-click="isDescription = false">Back</span>
         <span class="button button-possitive" ng-click="saveLocation()">Save</span>
     </div>

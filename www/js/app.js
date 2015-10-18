@@ -122,6 +122,12 @@ angular.module('starter', ['ionic', 'ngCordova'])
             $state.go('addLocation');
         }
 
+        $scope.$watch('isDescription', function(newVal) {
+            if (!!newVal) {
+                $scope.bgStr = "url('/img/" + $scope.forms.selected + ".svg') no-repeat";
+            }
+        });
+
         $scope.animals = [
             'fox',
             //'cow',
