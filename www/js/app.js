@@ -34,6 +34,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
                 angular.forEach($rootScope.locations, function(location, index) {
                     if(outerLocation.lat === location.lat &&
                        outerLocation.lng === location.lng &&
+                       outerLocation.type !== location.type &&
                        outerIndex !== index) {
                         $rootScope.locations[outerIndex].type = 'group';
                     }
