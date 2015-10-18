@@ -39,9 +39,11 @@ angular.module('starter', ['ionic', 'ngCordova'])
 		    center: { lng: 13.4, lat: 52.51 }
 	      });
 
-    $rootScope.addPin = function placePin (location) {
+    $rootScope.addPin = function placePin (location, iconType) {
+        if (typeof iconType == 'undefined')
+          iconType = 'other';
         cords = {lat: location.lat, lng: location.lng};
-        myMarker = new H.map.Marker(cords);
+        myMarker = new H.map.Marker(cords, {icon: new H.map.Icon("img/" + iconType + ".svg")});
         $rootScope.map.addObject(myMarker);
     };
 
