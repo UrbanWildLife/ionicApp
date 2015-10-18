@@ -39,6 +39,12 @@ angular.module('starter', ['ionic', 'ngCordova'])
 		center: { lng: 13.4, lat: 52.51 }
 	  });
 
+    $rootScope.addPin = function placePin (location) {
+        cords = {lat: location.lat, lng: location.lng};
+        myMarker = new H.map.Marker(cords);
+        $rootScope.map.addObject(myMarker);
+    };
+
 	// Set behavior
 	 $rootScope.behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents($rootScope.map));
     })
@@ -53,11 +59,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
         $scope.populatePins = function populatePins(locations) {
             var myMarker,
                 cords;
-            angular.forEach(locations, function locationIterator (location) {
-                cords = {lat: location.lat, lng: location.lng};
-                myMarker = new H.map.Marker(cords);
-                $scope.map.addObject(myMarker);
-            });
+            angular.forEach(locations, $scope.addPin);
         }
 
     })
@@ -66,8 +68,21 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
     })
     .controller('AddLocationCtrl', function($scope) {
-        //Add a new location
-
+        $scope.animals = [
+            'cow',
+            'cat',
+            'oak',
+            'bat',
+            'bird',
+            'deer',
+            'dog',
+            'elephant',
+            'turlte',
+            'rabbit',
+            'sheep',
+            'fish',
+            'other'
+        ];
     })
     .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
