@@ -1,4 +1,4 @@
-// -*- Mode: HTML; tab-width: 2; indent-tabs-mode: nil; -*-
+// -*- Mode: JS; tab-width: 2; indent-tabs-mode: nil; -*-
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
@@ -18,29 +18,40 @@ angular.module('starter', ['ionic', 'ngCordova'])
     }
   });
 })
-    .controller('Map', function($rootScope) {
-  // Here's to Here
+    .controller('Map', function($rootScope, $cordovaGeolocation) {
+      // Here's to Here
 
-	// Initialize the platform object:
-	var platform = new H.service.Platform({
-	  'app_id': '1MrIFeGNV4L6zYk9PZqB',
-	  'app_code': 'tqDjDcngM5yj54XCRAYcbQ'
-	});
+	    // Initialize the platform object:
+	    var platform = new H.service.Platform({
+	      'app_id': '1MrIFeGNV4L6zYk9PZqB',
+	      'app_code': 'tqDjDcngM5yj54XCRAYcbQ'
+	    });
 
-	// Obtain the default map types from the platform object
-	var maptypes = platform.createDefaultLayers();
+	    // Obtain the default map types from the platform object
+	    var maptypes = platform.createDefaultLayers();
 
-	// Instantiate (and display) a map object:
-	 $rootScope.map = new H.Map(
-	  document.getElementById('mapContainer'),
-	  maptypes.normal.map,
-	  {
-		zoom: 12,
-		center: { lng: 13.4, lat: 52.51 }
-	  });
+	    // Instantiate (and display) a map object:
+	    $rootScope.map = new H.Map(
+	      document.getElementById('mapContainer'),
+	      maptypes.normal.map,
+	      {
+		    zoom: 12,
+		    center: { lng: 13.4, lat: 52.51 }
+	      });
 
-	// Set behavior
-	 $rootScope.behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents($rootScope.map));
+	    // Set behavior
+	    $rootScope.behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents($rootScope.map));
+
+      // The location
+      var posOptions = {timeout: 3000, enableHighAccuracy: true};
+      $rootScope.pinCurrentPosition = function pinCurrentPosition(posCb, errCb) {
+        $cordovaGeolocation.getCurrentPosition(posOptions).then(posCb, errCb);
+      };
+
+      $rootScope.pinCurrentPosition(function pinCurrentPosition1(position) {
+        var loc = {lat: position.coords.latitude, lng: position.coords.longitude};
+        $rootScope.map.setCenter(loc);
+      });
     })
     .controller('LocationsCtrl', function($scope, $http) {
         $http.get('http://localhost:1337/locations').then(function SuccessCb(data) {
