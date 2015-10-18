@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551809e6-5d84-4ea2-86dc-ed50cea1c4c4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/cat.svg" afterPath="$PROJECT_DIR$/www/img/cat.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/deer.svg" afterPath="$PROJECT_DIR$/www/img/deer.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/other.svg" afterPath="$PROJECT_DIR$/www/img/other.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/addLocation.html" afterPath="$PROJECT_DIR$/www/templates/addLocation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/addLocationDescription.html" afterPath="$PROJECT_DIR$/www/templates/addLocationDescription.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/locations.html" afterPath="$PROJECT_DIR$/www/templates/locations.html" />
     </list>
     <ignored path="UrbanWildLife.backup.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,31 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="deer.svg" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bat.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/img/bat.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deer.svg" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/img/deer.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.116385914">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fish.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/img/fish.svg">
+      <file leaf-file-name="cat.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/img/cat.svg">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oak.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/img/oak.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -62,18 +60,18 @@
       <file leaf-file-name="other.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/img/other.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state vertical-scroll-proportion="-1.78125">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4486983">
-              <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+            <state vertical-scroll-proportion="-5.9375">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -152,7 +150,11 @@
         <option value="$PROJECT_DIR$/www/templates/addLocationDescription.html" />
         <option value="$PROJECT_DIR$/www/templates/addLocation.html" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/img/bat.svg" />
+        <option value="$PROJECT_DIR$/www/img/cat.svg" />
+        <option value="$PROJECT_DIR$/www/img/other.svg" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/www/img/deer.svg" />
       </list>
     </option>
   </component>
@@ -525,23 +527,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/bat.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/img/bird.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/cat.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -589,26 +575,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/deer.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/location.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/other.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -645,10 +615,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/bat.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/cat.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/other.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.78125">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4486983">
-          <caret line="119" column="23" selection-start-line="119" selection-start-column="23" selection-end-line="119" selection-end-column="23" />
+        <state vertical-scroll-proportion="-5.9375">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/img/deer.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.116385914">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
         </state>
       </provider>

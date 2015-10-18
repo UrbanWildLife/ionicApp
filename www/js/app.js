@@ -22,7 +22,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 })
     .controller('Map', function($rootScope, $cordovaGeolocation) {
       // Here's to Here
-        $rootScope.loc = { lng: 13.4, lat: 52.51 };
+        $rootScope.loc = { lng: 13.42, lat: 52.53 };
 	    // Initialize the platform object:
 	    var platform = new H.service.Platform({
 	      'app_id': '1MrIFeGNV4L6zYk9PZqB',
@@ -42,8 +42,11 @@ angular.module('starter', ['ionic', 'ngCordova'])
 	      });
 
     $rootScope.addPin = function placePin (location) {
+        if (typeof location.type === 'undefined') {
+            location.type = 'other';
+        }
         var cords = {lat: location.lat, lng: location.lng},
-        myMarker = new H.map.Marker(cords);
+        myMarker = new H.map.Marker(cords, {icon: new H.map.Icon("img/" + location.type + ".svg")});
         $rootScope.map.addObject(myMarker);
     };
 
