@@ -1,3 +1,5 @@
+"use strict";
+
 // -*- Mode: JS; tab-width: 2; indent-tabs-mode: nil; -*-
 // Ionic Starter App
 
@@ -40,7 +42,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 	      });
 
     $rootScope.addPin = function placePin (location) {
-        cords = {lat: location.lat, lng: location.lng};
+        var cords = {lat: location.lat, lng: location.lng},
         myMarker = new H.map.Marker(cords);
         $rootScope.map.addObject(myMarker);
     };
@@ -69,8 +71,6 @@ angular.module('starter', ['ionic', 'ngCordova'])
         });
 
         $scope.populatePins = function populatePins(locations) {
-            var myMarker,
-                cords;
             angular.forEach(locations, $scope.addPin);
         }
 
@@ -127,6 +127,15 @@ angular.module('starter', ['ionic', 'ngCordova'])
                 views: {
                     '@': {
                         templateUrl: 'templates/addLocation.html',
+                        controller: 'AddLocationCtrl'
+                    }
+                }
+            })
+            .state('addLocation.description', {
+                url: '/addLocationDescription',
+                views: {
+                    '@': {
+                        templateUrl: 'templates/addLocationDescription.html',
                         controller: 'AddLocationCtrl'
                     }
                 }
