@@ -1,48 +1,356 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="30px" height="30px" viewBox="0 0 236.62 236.62" style="enable-background:new 0 0 236.62 236.62;"
-	 xml:space="preserve">
-<g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 68" style="enable-background:new 0 0 52 68;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#546E7A;}
+	.style_card_focus{fill:#FAFAFA;stroke:url(#SVGID_1_);stroke-miterlimit:10;}
+	.st1{fill:#BCAAA4;}
+	.st2{fill:#263238;}
+	.st3{clip-path:url(#SVGID_3_);fill:#A1887F;}
+	.st4{fill:#9DC2E8;fill-opacity:0.25;}
+	.st5{fill:#EEEEEE;}
+	.st6{opacity:8.000000e-02;fill:url(#SVGID_4_);}
+	.st7{clip-path:url(#SVGID_6_);}
+	.st8{fill:none;}
+	.st9{clip-path:url(#SVGID_8_);}
+	.st10{fill:#FAFAFA;}
+	.st11{opacity:4.000000e-02;}
+	.st12{fill:url(#SVGID_9_);}
+	.st13{opacity:0.8;}
+	.st14{fill:url(#SVGID_10_);}
+	.st15{opacity:0.54;}
+	.st16{fill:#212121;}
+	.st17{fill:url(#SVGID_11_);}
+	.st18{fill:url(#SVGID_12_);}
+	.st19{opacity:0.12;}
+	.st20{opacity:8.000000e-02;fill:none;}
+	.st21{fill:#757575;}
+	.st22{fill:#0D0D0D;}
+	.st23{fill:#FFFFFF;}
+	.st24{opacity:2.000000e-02;}
+	.st25{fill:#231F20;}
+	.st26{fill:url(#SVGID_13_);}
+	.st27{fill:url(#SVGID_14_);}
+	.st28{opacity:8.000000e-02;fill:url(#SVGID_15_);}
+	.st29{clip-path:url(#SVGID_17_);}
+	.st30{fill:url(#SVGID_18_);}
+	.st31{fill:url(#SVGID_19_);}
+	.st32{clip-path:url(#SVGID_20_);}
+	.st33{fill:url(#SVGID_21_);}
+	.st34{fill:url(#SVGID_22_);}
+	.st35{fill:#B2B2B2;}
+	.st36{fill-opacity:0;}
+	.st37{clip-path:url(#SVGID_24_);}
+	.st38{fill:#FFFFFF;fill-opacity:0.3;}
+	.st39{fill:#FFFFFF;fill-opacity:0.9;}
+	.st40{clip-path:url(#SVGID_26_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st41{clip-path:url(#SVGID_26_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st42{clip-path:url(#SVGID_28_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st43{clip-path:url(#SVGID_28_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st44{opacity:0.9;}
+	.st45{opacity:8.000000e-02;fill:url(#SVGID_29_);}
+	.st46{clip-path:url(#SVGID_30_);}
+	.st47{clip-path:url(#SVGID_31_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st48{clip-path:url(#SVGID_31_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st49{clip-path:url(#SVGID_32_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st50{clip-path:url(#SVGID_32_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st51{clip-path:url(#SVGID_34_);}
+	.st52{fill:url(#SVGID_35_);}
+	.st53{fill:url(#SVGID_36_);}
+	.st54{fill:url(#SVGID_37_);}
+	.st55{fill:url(#SVGID_38_);}
+	.st56{opacity:8.000000e-02;fill:url(#SVGID_39_);}
+	.st57{clip-path:url(#SVGID_41_);}
+	.st58{fill:url(#SVGID_42_);}
+	.st59{fill:url(#SVGID_43_);}
+	.st60{fill:#999999;}
+	.st61{clip-path:url(#SVGID_44_);}
+	.st62{fill:url(#SVGID_45_);}
+	.st63{fill:url(#SVGID_46_);}
+	.st64{clip-path:url(#SVGID_47_);}
+	.st65{clip-path:url(#SVGID_48_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st66{clip-path:url(#SVGID_48_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st67{clip-path:url(#SVGID_49_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st68{clip-path:url(#SVGID_49_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st69{fill:url(#SVGID_50_);}
+	.st70{fill:url(#SVGID_51_);}
+	.st71{opacity:0.5;}
+	.st72{opacity:8.000000e-02;fill:url(#SVGID_52_);}
+	.st73{clip-path:url(#SVGID_54_);}
+	.st74{fill:url(#SVGID_55_);}
+	.st75{fill:url(#SVGID_56_);}
+	.st76{opacity:0.26;}
+	.st77{clip-path:url(#SVGID_57_);}
+	.st78{fill:url(#SVGID_58_);}
+	.st79{fill:url(#SVGID_59_);}
+	.st80{clip-path:url(#SVGID_60_);}
+	.st81{clip-path:url(#SVGID_61_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st82{clip-path:url(#SVGID_61_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st83{clip-path:url(#SVGID_62_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st84{clip-path:url(#SVGID_62_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st85{fill:url(#SVGID_63_);}
+	.st86{fill:url(#SVGID_64_);}
+	.st87{clip-path:url(#SVGID_65_);}
+	.st88{clip-path:url(#SVGID_66_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st89{clip-path:url(#SVGID_66_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st90{clip-path:url(#SVGID_67_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st91{clip-path:url(#SVGID_67_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st92{clip-path:url(#SVGID_69_);}
+	.st93{fill:url(#SVGID_70_);}
+	.st94{fill:url(#SVGID_71_);}
+	.st95{fill:url(#SVGID_72_);}
+	.st96{fill:url(#SVGID_73_);}
+	.st97{opacity:8.000000e-02;fill:url(#SVGID_74_);}
+	.st98{clip-path:url(#SVGID_76_);}
+	.st99{fill:url(#SVGID_77_);}
+	.st100{fill:url(#SVGID_78_);}
+	.st101{clip-path:url(#SVGID_79_);}
+	.st102{fill:url(#SVGID_80_);}
+	.st103{fill:url(#SVGID_81_);}
+	.st104{opacity:0.4;clip-path:url(#SVGID_83_);fill:#333333;}
+	.st105{clip-path:url(#SVGID_83_);}
+	.st106{clip-path:url(#SVGID_85_);}
+	.st107{fill:url(#SVGID_86_);}
+	.st108{fill:url(#SVGID_87_);}
+	.st109{opacity:0.25;fill:#9DC2E8;}
+	.st110{opacity:0.87;}
+	.st111{opacity:0.2;clip-path:url(#SVGID_83_);}
+	.st112{opacity:8.000000e-02;fill:url(#SVGID_88_);}
+	.st113{clip-path:url(#SVGID_90_);}
+	.st114{fill:url(#SVGID_91_);}
+	.st115{fill:url(#SVGID_92_);}
+	.st116{clip-path:url(#SVGID_93_);}
+	.st117{fill:url(#SVGID_94_);}
+	.st118{fill:url(#SVGID_95_);}
+	.st119{opacity:0.4;clip-path:url(#SVGID_97_);fill:#333333;}
+	.st120{clip-path:url(#SVGID_97_);}
+	.st121{clip-path:url(#SVGID_98_);}
+	.st122{fill:url(#SVGID_99_);}
+	.st123{fill:url(#SVGID_100_);}
+	.st124{opacity:0.25;}
+	.st125{opacity:0.2;clip-path:url(#SVGID_97_);}
+	.st126{clip-path:url(#SVGID_101_);}
+	.st127{clip-path:url(#SVGID_102_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st128{clip-path:url(#SVGID_102_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st129{clip-path:url(#SVGID_103_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st130{clip-path:url(#SVGID_103_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st131{opacity:8.000000e-02;fill:url(#SVGID_104_);}
+	.st132{clip-path:url(#SVGID_106_);}
+	.st133{fill:url(#SVGID_107_);}
+	.st134{fill:url(#SVGID_108_);}
+	.st135{clip-path:url(#SVGID_109_);}
+	.st136{fill:url(#SVGID_110_);}
+	.st137{fill:url(#SVGID_111_);}
+	.st138{opacity:0.4;clip-path:url(#SVGID_113_);fill:#333333;}
+	.st139{clip-path:url(#SVGID_113_);}
+	.st140{clip-path:url(#SVGID_114_);}
+	.st141{fill:url(#SVGID_115_);}
+	.st142{fill:url(#SVGID_116_);}
+	.st143{opacity:0.2;clip-path:url(#SVGID_113_);}
+	.st144{clip-path:url(#SVGID_117_);}
+	.st145{clip-path:url(#SVGID_118_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st146{clip-path:url(#SVGID_118_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st147{clip-path:url(#SVGID_119_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st148{clip-path:url(#SVGID_119_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st149{opacity:8.000000e-02;fill:url(#SVGID_120_);}
+	.st150{clip-path:url(#SVGID_122_);}
+	.st151{fill:url(#SVGID_123_);}
+	.st152{fill:url(#SVGID_124_);}
+	.st153{clip-path:url(#SVGID_125_);}
+	.st154{fill:url(#SVGID_126_);}
+	.st155{fill:url(#SVGID_127_);}
+	.st156{clip-path:url(#SVGID_128_);}
+	.st157{clip-path:url(#SVGID_129_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st158{clip-path:url(#SVGID_129_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st159{clip-path:url(#SVGID_130_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st160{clip-path:url(#SVGID_130_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st161{fill:url(#SVGID_131_);}
+	.st162{fill:url(#SVGID_132_);}
+	.st163{clip-path:url(#SVGID_133_);}
+	.st164{clip-path:url(#SVGID_134_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st165{clip-path:url(#SVGID_134_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st166{clip-path:url(#SVGID_135_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st167{clip-path:url(#SVGID_135_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st168{clip-path:url(#SVGID_136_);}
+	.st169{clip-path:url(#SVGID_137_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st170{clip-path:url(#SVGID_137_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st171{clip-path:url(#SVGID_138_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st172{clip-path:url(#SVGID_138_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st173{opacity:0.7;}
+	.st174{fill:#FF4081;}
+	.st175{fill:#11B2B2;}
+	.st176{fill:#0288D1;}
+	.st177{fill:#18FFFF;fill-opacity:0.5;}
+	.st178{fill:none;stroke:#FF4081;stroke-miterlimit:10;}
+	.st179{fill:#444444;}
+	.st180{fill:#3E4FB1;}
+	.st181{fill:#4F2CA5;}
+	.st182{fill:#33AC71;}
+	.st183{fill:#00796B;}
+	.st184{fill:#FFEB3B;}
+	.st185{clip-path:url(#SVGID_142_);}
+	.st186{clip-path:url(#SVGID_143_);}
+	.st187{fill:url(#SVGID_144_);}
+	.st188{fill:url(#SVGID_145_);}
+	.st189{opacity:0.54;clip-path:url(#SVGID_142_);}
+	.st190{fill:#E64A19;}
+	.st191{clip-path:url(#SVGID_146_);}
+	.st192{clip-path:url(#SVGID_147_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st193{clip-path:url(#SVGID_147_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st194{clip-path:url(#SVGID_148_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st195{clip-path:url(#SVGID_148_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st196{clip-path:url(#SVGID_152_);}
+	.st197{clip-path:url(#SVGID_153_);}
+	.st198{fill:url(#SVGID_154_);}
+	.st199{fill:url(#SVGID_155_);}
+	.st200{clip-path:url(#SVGID_156_);}
+	.st201{clip-path:url(#SVGID_157_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st202{clip-path:url(#SVGID_157_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st203{clip-path:url(#SVGID_158_);fill:#FFFFFF;fill-opacity:0.9;}
+	.st204{clip-path:url(#SVGID_158_);fill:#FFFFFF;fill-opacity:0.3;}
+	.st205{fill:#F4511E;}
+	.st206{fill:#A1887F;}
+	.st207{fill:#4E342E;}
+	.st208{fill:#FFA726;}
+	.st209{fill:#5D4037;}
+	.st210{fill:#E65100;}
+	.st211{fill:#F57F17;}
+	.st212{fill:#FDD835;}
+	.st213{fill:#64DD17;}
+	.st214{fill:#26C6DA;}
+	.st215{fill:#B388FF;}
+	.st216{fill:#8D6E63;}
+	.st217{fill:#AD1457;}
+	.st218{fill:#1E88E5;}
+	.st219{fill:#FF8F00;}
+	.st220{clip-path:url(#SVGID_160_);fill:#BCAAA4;}
+	.st221{clip-path:url(#SVGID_161_);fill:#BCAAA4;}
+	.st222{clip-path:url(#SVGID_163_);fill:#A1887F;}
+	.st223{fill:#37474F;}
+	.st224{clip-path:url(#SVGID_165_);fill:#A1887F;}
+	.st225{fill:#424242;}
+	.st226{fill:#616161;}
+	.st227{fill:#FFEE58;}
+	.st228{clip-path:url(#SVGID_167_);fill:#7CB342;}
+	.st229{fill:#039BE5;}
+	.st230{fill:#7CB342;}
+	.st231{clip-path:url(#SVGID_169_);fill:#424242;}
+	.st232{clip-path:url(#SVGID_171_);fill:#424242;}
+	.st233{fill:#64433A;}
+	.st234{fill:#B3E5FC;}
+	.st235{fill:#FBC02D;}
+	.st236{fill:#EF6C00;}
+	.st237{fill:#FFFFFF;stroke:#FBC02D;stroke-miterlimit:10;}
+	.st238{clip-path:url(#SVGID_173_);fill:#FFFFFF;}
+	.st239{clip-path:url(#SVGID_175_);fill:#FFFFFF;}
+	.st240{fill:none;stroke:#A1887F;stroke-miterlimit:10;}
+	.st241{fill:none;stroke:#5D4037;stroke-miterlimit:10;}
+	.st242{fill:#F5F5F5;}
+	.st243{fill:#D81B60;}
+	.st244{fill:#F8BBD0;}
+	.st245{fill:#FCE4EC;}
+	.st246{fill:#FFFFFF;stroke:#1E88E5;stroke-miterlimit:10;}
+	.st247{fill:#FFFFFF;stroke:#D81B60;stroke-miterlimit:10;}
+	.st248{fill:none;stroke:#D81B60;stroke-miterlimit:10;}
+	.st249{clip-path:url(#SVGID_177_);fill:none;stroke:#D81B60;stroke-miterlimit:10;}
+	.st250{clip-path:url(#SVGID_179_);fill:none;stroke:#D81B60;stroke-miterlimit:10;}
+	.st251{clip-path:url(#SVGID_181_);fill:none;stroke:#D81B60;stroke-miterlimit:10;}
+	.st252{clip-path:url(#SVGID_183_);fill:none;stroke:#D81B60;stroke-miterlimit:10;}
+	.st253{fill:#5E35B1;}
+	.st254{fill:#9CCC65;}
+	.st255{clip-path:url(#SVGID_185_);fill:#9CCC65;}
+	.st256{clip-path:url(#SVGID_187_);fill:#9CCC65;}
+	.st257{clip-path:url(#SVGID_189_);fill:#9CCC65;}
+	.st258{clip-path:url(#SVGID_191_);fill:#9CCC65;}
+	.st259{display:none;}
+	.st260{display:inline;}
+	.st261{fill:#FFAB91;}
+	.st262{display:inline;opacity:0.6;}
+	.st263{fill:#03A9F4;}
+	.st264{display:inline;fill:#18FFFF;fill-opacity:0.5;}
+	.st265{display:inline;fill:#3F51B5;}
+	.st266{fill:#18FFFF;}
+	.st267{display:inline;fill:#0288D1;}
+	.st268{fill:#512DA8;}
+</style>
+<symbol  id="Pin" viewBox="-26 -34 52 68">
 	<g>
-		<path d="M197.023,225.545c-1.145-9.533-11.68-10.614-17.805-9.958c-6.521-24.554,16.225-61.151,17.563-69.82
-			c1.438-9.312-6.658-63.5-7.513-90.938C188.389,26.662,147.48-4.433,140.65,0.524c-6.768,7.484,9.748,17.585,1.054,26.245
-			c-8.398,8.367-10.588,13.99-16.824,23.46c-15.976,24.255,27.318,24.558,27.318,24.558s-33.882,25.112-41.421,37.768
-			c-6.943,11.656-9.854,24.696-18.232,35.688c-19.094,25.051-14.791,68.729-14.791,68.729s-36.17-11.839-16.264-53.133
-			C76.643,132.406,84.107,86.02,50.016,97.95c-13.189,4.616,2.949,14.325,5.734,17.435c9.318,10.4,1.441,27.896-4.174,38.012
-			c-15.037,27.091-20.496,55.475,11.154,72.978c14.063,7.776,33.055,9.7,52.17,9.982l48.64,0.14
-			C179.564,237.294,197.689,234.298,197.023,225.545z"/>
+		<path class="st0" d="M26,8C26-6.4,14.4-18,0-18S-26-6.4-26,8s11.6,26,26,26S26,22.4,26,8z"/>
+	</g>
+	<polygon class="st0" points="7.5,-14 0,-34 -7.5,-14 	"/>
+</symbol>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-979" y1="86" x2="-979" y2="85">
+	<stop  offset="0" style="stop-color:#000000"/>
+	<stop  offset="4.000000e-02" style="stop-color:#000000;stop-opacity:0"/>
+</linearGradient>
+<g id="Layouts">
+	<g id="spec_x5F_header">
 	</g>
 </g>
-<g>
+<g id="Ebene_9">
 </g>
-<g>
+<g id="Ebene_10">
 </g>
-<g>
+<g id="Owl_separated">
 </g>
-<g>
+<g id="bear">
 </g>
-<g>
+<g id="Icons">
 </g>
-<g>
+<g id="Bat">
 </g>
-<g>
+<g id="parrot">
 </g>
-<g>
+<g id="boar">
+	
+		<use xlink:href="#Pin"  width="52" height="68" x="-26" y="-34" transform="matrix(1 0 0 -1 26.0001 34)" style="overflow:visible;"/>
+	
+		<use xlink:href="#Pin"  width="52" height="68" x="-26" y="-34" transform="matrix(1 0 0 -1 26.0001 34)" style="overflow:visible;"/>
+	<g>
+		<g>
+			<g>
+				<path class="st23" d="M16.5,7.7c2.4,0.3,5.4,7.3,5.1,11.7S19.4,27.3,17,27c-2.4-0.3-4.1-4.1-3.9-8.5S14.2,7.4,16.5,7.7z"/>
+				<path class="st206" d="M16.8,11.2c1.8,0.2,4,5.7,3.8,9.1c-0.2,3.3-1.8,5.9-3.5,5.7c-1.8-0.2-3.1-3.1-2.9-6.4
+					C14.3,16.2,15,11,16.8,11.2z"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<path class="st23" d="M35.5,7.8c-2.4,0.3-5.4,7.3-5.1,11.7c0.2,4.4,2.3,7.8,4.7,7.5c2.4-0.3,4.1-4.1,3.9-8.5
+					C38.7,14.2,37.8,7.5,35.5,7.8z"/>
+				<path class="st206" d="M35.2,11.3c-1.8,0.2-4,5.7-3.8,9.1s1.8,5.9,3.5,5.7c1.8-0.2,3.1-3.1,2.9-6.4S37,11.1,35.2,11.3z"/>
+			</g>
+		</g>
+	</g>
+	<ellipse class="st23" cx="26" cy="27.4" rx="16.5" ry="13.1"/>
+	<ellipse class="st25" cx="19" cy="26.4" rx="1" ry="1.3"/>
+	<ellipse class="st25" cx="33.8" cy="26.4" rx="1" ry="1.3"/>
+	<path class="st206" d="M28,33.4c0,0.6-0.9,1-2,1c-1.1,0-2-0.5-2-1c0-0.6,0.9-1.8,2-1.8C27.1,31.6,28,32.9,28,33.4z"/>
+	<path class="st240" d="M29.9,32.9c0,0,7.4-3.3,16.5,0.9"/>
+	<path class="st240" d="M30.1,34.4c0,0,8.8-2.4,14.9,3.6"/>
+	<path class="st240" d="M22.1,32.9c0,0-7.4-3.3-16.5,0.9"/>
+	<path class="st240" d="M21.9,34.4c0,0-8.8-2.4-14.9,3.6"/>
+	<g>
+		<path class="st240" d="M31.3,39.8c0,0-0.1,0-0.1,0c-2.8,0-5.2-2.2-5.2-5c0,2.8-2.3,5-5.2,5c0,0-0.1,0-0.1,0"/>
+	</g>
 </g>
-<g>
+<g id="Unicorn">
 </g>
-<g>
+<g id="Fox_separated">
 </g>
-<g>
+<g id="Ebene_11">
 </g>
-<g>
+<g id="Ebene_7" class="st259">
 </g>
-<g>
+<g id="Bounding" class="st259">
 </g>
-<g>
+<g id="Horiz_Margins" class="st259">
 </g>
-<g>
+<g id="Vert_Sizing" class="st259">
+</g>
+<g id="Vert_Keylines">
 </g>
 </svg>
