@@ -74,7 +74,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
       });
     })
     .controller('LocationsCtrl', function($scope, $http, $state) {
-        $http.get('http://localhost:1337/locations').then(function SuccessCb(data) {
+        $http.get('http://csuieuorhi.localtunnel.me/locations').then(function SuccessCb(data) {
             $scope.populatePins(data.data);
             console.debug('Successfuly fetched locations', data);
         }, function errorCallback(data) {
@@ -122,7 +122,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
             payload.type = $scope.forms.selected;
             payload.description = $scope.forms.description;
 
-            $http.post('http://localhost:1337/locations', payload).then(function(success){
+            $http.post('http://csuieuorhi.localtunnel.me/locations', payload).then(function(success){
                 try{
                     $cordovaToast.show('Saved!', 'long', 'center', function(data) {
                         console.debug(data);
