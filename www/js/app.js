@@ -44,10 +44,16 @@ angular.module('starter', ['ionic', 'ngCordova'])
     $rootScope.addPin = function placePin (location) {
         if (typeof location.type === 'undefined') {
             location.type = 'other';
+        } else if (location.type === 'me') {
+            var cords = {lat: location.lat, lng: location.lng},
+                myMarker = new H.map.Marker(cords);
+            $rootScope.map.addObject(myMarker);
+        } else {
+            var cords = {lat: location.lat, lng: location.lng},
+                myMarker = new H.map.Marker(cords, {icon: new H.map.Icon("img/" + location.type + ".svg")});
+            $rootScope.map.addObject(myMarker);
         }
-        var cords = {lat: location.lat, lng: location.lng},
-        myMarker = new H.map.Marker(cords, {icon: new H.map.Icon("img/" + location.type + ".svg")});
-        $rootScope.map.addObject(myMarker);
+
     };
 
 	    // Set behavior
@@ -62,6 +68,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
       $rootScope.pinCurrentPosition(function pinCurrentPosition1(position) {
         var loc = {lat: position.coords.latitude, lng: position.coords.longitude};
         $rootScope.map.setCenter(loc);
+         loc.type = 'me';
         $rootScope.addPin(loc);
         $rootScope.loc = loc;
       });
