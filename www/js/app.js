@@ -74,6 +74,9 @@ angular.module('starter', ['ionic', 'ngCordova'])
       });
     })
     .controller('LocationsCtrl', function($scope, $http, $state) {
+        $scope.map.setZoom(12);
+        $scope.map.setCenter($scope.loc);
+
         $http.get('http://csuieuorhi.localtunnel.me/locations').then(function SuccessCb(data) {
             $scope.populatePins(data.data);
             console.debug('Successfuly fetched locations', data);
@@ -93,7 +96,9 @@ angular.module('starter', ['ionic', 'ngCordova'])
         //Single location
 
     })
-    .controller('AddLocationCtrl', function($scope, $http, $state, $cordovaToast) {
+    .controller('AddLocationCtrl', function($scope, $http, $state, $stateParams, $cordovaToast) {
+        $scope.map.setZoom(16);
+        $scope.map.setCenter($scope.loc);
         $scope.forms = $scope.forms || {};
         console.debug($scope.forms.selected, $state.current);
         window.scope = $scope;
@@ -103,7 +108,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
         $scope.animals = [
             'fox',
-            'cow',
+            //'cow',
             'cat',
             'oak',
             'bat',
@@ -111,7 +116,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
             'deer',
             'dog',
             'elephant',
-            //'turtle',
+            'turtle',
             'rabbit',
             'sheep',
             'fish',
@@ -133,7 +138,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
                 } catch(e){
                     alert('success!');
                 }
-                $state.go('locations');
+                location.href = '';
             });
         }
     })
