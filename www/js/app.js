@@ -47,6 +47,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
         } else if (location.type === 'me') {
             var cords = {lat: location.lat, lng: location.lng},
                 myMarker = new H.map.Marker(cords);
+			$rootScope.me = myMarker;
             $rootScope.map.addObject(myMarker);
         } else {
             var cords = {lat: location.lat, lng: location.lng},
@@ -130,6 +131,9 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
             $http.post('http://csuieuorhi.localtunnel.me/locations', payload).then(function(success){
                 try{
+					$scope.addPin(success.data);
+					$scope.map.setZoom(12);
+					$scope.map.setCenter(success.data);
                     $cordovaToast.show('Saved!', 'long', 'center', function(data) {
                         console.debug(data);
                     }, function(data) {
@@ -138,7 +142,8 @@ angular.module('starter', ['ionic', 'ngCordova'])
                 } catch(e){
                     alert('success!');
                 }
-                location.href = '';
+				$scope.map.removeObject($scope.me);
+				$state.go('locations')
             });
         }
     })
