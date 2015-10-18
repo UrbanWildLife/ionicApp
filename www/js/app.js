@@ -57,6 +57,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
       $rootScope.pinCurrentPosition(function pinCurrentPosition1(position) {
         var loc = {lat: position.coords.latitude, lng: position.coords.longitude};
         $rootScope.map.setCenter(loc);
+        $rootScope.addPin(loc);
       });
     })
     .controller('LocationsCtrl', function($scope, $http) {
