@@ -42,3 +42,11 @@
     vertical-align: middle;
     padding: 10px 0;
 }
+
+#saveButton{
+    text-align: center;
+}
+
+.desc .animal {
+    margin: -15px 0 3px 0;
+}

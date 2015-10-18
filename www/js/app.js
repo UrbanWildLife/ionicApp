@@ -22,7 +22,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 })
     .controller('Map', function($rootScope, $cordovaGeolocation) {
       // Here's to Here
-
+        $rootScope.loc = { lng: 13.4, lat: 52.51 };
 	    // Initialize the platform object:
 	    var platform = new H.service.Platform({
 	      'app_id': '1MrIFeGNV4L6zYk9PZqB',
@@ -38,7 +38,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
 	      maptypes.normal.map,
 	      {
 		    zoom: 12,
-		    center: { lng: 13.4, lat: 52.51 }
+		    center: $rootScope.loc
 	      });
 
     $rootScope.addPin = function placePin (location) {
@@ -60,6 +60,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
         var loc = {lat: position.coords.latitude, lng: position.coords.longitude};
         $rootScope.map.setCenter(loc);
         $rootScope.addPin(loc);
+        $rootScope.loc = loc;
       });
     })
     .controller('LocationsCtrl', function($scope, $http, $state) {
@@ -72,17 +73,24 @@ angular.module('starter', ['ionic', 'ngCordova'])
 
         $scope.populatePins = function populatePins(locations) {
             angular.forEach(locations, $scope.addPin);
-        }
+        };
 
         $scope.goToAddLocation = function goToAddLocation() {
           $state.go("addLocation");
-        }
+        };
     })
     .controller('LocationCtrl', function($scope) {
         //Single location
 
     })
-    .controller('AddLocationCtrl', function($scope) {
+    .controller('AddLocationCtrl', function($scope, $http, $state, $cordovaToast) {
+        $scope.forms = $scope.forms || {};
+        console.debug($scope.forms.selected, $state.current);
+        window.scope = $scope;
+        if ($scope.forms.selected && $state.current.name === 'addLocation.description') {
+            $state.go('addLocation');
+        }
+
         $scope.animals = [
             'cow',
             'cat',
@@ -98,6 +106,25 @@ angular.module('starter', ['ionic', 'ngCordova'])
             'fish',
             'other'
         ];
+
+        $scope.saveLocation = function saveLocation() {
+            var payload = angular.copy($scope.loc);
+            payload.type = $scope.forms.selected;
+            payload.description = $scope.forms.description;
+
+            $http.post('http://localhost:1337/locations', payload).then(function(success){
+                try{
+                    $cordovaToast.show('Saved!', 'long', 'center', function(data) {
+                        console.debug(data);
+                    }, function(data) {
+                        console.debug(data);
+                    });
+                } catch(e){
+                    alert('success!');
+                }
+                $state.go('locations');
+            });
+        }
     })
     .config(function($stateProvider, $urlRouterProvider) {
         $stateProvider
@@ -138,8 +165,7 @@ angular.module('starter', ['ionic', 'ngCordova'])
                 url: '/addLocationDescription',
                 views: {
                     '@': {
-                        templateUrl: 'templates/addLocationDescription.html',
-                        controller: 'AddLocationCtrl'
+                        templateUrl: 'templates/addLocationDescription.html'
                     }
                 }
             })
