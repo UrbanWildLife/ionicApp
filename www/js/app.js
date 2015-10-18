@@ -29,6 +29,14 @@ angular.module('starter', ['ionic', 'ngCordova'])
 	      'app_code': 'tqDjDcngM5yj54XCRAYcbQ'
 	    });
 
+        $rootScope.aggregateLocations = function() {
+            angular.forEach($rootScope.locations, function(outerLocation, outerIndex) {
+                angular.forEach($rootScope.locations, function(location, index) {
+
+                });
+            });
+        };
+
 	    // Obtain the default map types from the platform object
 	    var maptypes = platform.createDefaultLayers();
 
@@ -73,11 +81,13 @@ angular.module('starter', ['ionic', 'ngCordova'])
         $rootScope.loc = loc;
       });
     })
-    .controller('LocationsCtrl', function($scope, $http, $state) {
+    .controller('LocationsCtrl', function($rootScope, $scope, $http, $state) {
         $scope.map.setZoom(12);
         $scope.map.setCenter($scope.loc);
 
         $http.get('http://csuieuorhi.localtunnel.me/locations').then(function SuccessCb(data) {
+            $rootScope.locations = data.data;
+            $scope.aggregateLocations();
             $scope.populatePins(data.data);
             console.debug('Successfuly fetched locations', data);
         }, function errorCallback(data) {
